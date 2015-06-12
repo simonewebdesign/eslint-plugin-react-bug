@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-react-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "eslint": "npm:eslint@^0.22.1",
+      "eslint-plugin-react": "npm:eslint-plugin-react@^2.5.0",
+      "react": "npm:react@^0.14.0-alpha3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "eslint-plugin-react": "^2.5.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.13.2"
+  }
+}
